@@ -1,8 +1,17 @@
 aid: assistiq-technologies
 name: AssistIQ Technologies
-description: AssistIQ Technologies is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: AssistIQ Technologies builds AI-powered computer vision for the healthcare
+  supply chain, automatically capturing the implants, supplies, and tissues used during
+  surgical cases in real time so hospitals can bill with confidence. Its platform pairs
+  three products - Capture (computer-vision recognition of implants and supplies at
+  point of use), Charge Capture (automated charge data submission and review), and
+  Insights (analytics on supply variation and utilization) - and integrates with major
+  EHR and ERP systems including recognition in the Epic Showroom and a GE HealthCare
+  partnership. AssistIQ reports up to an 80% increase in billable product revenue, a
+  48% reduction in expiry-related costs, and 15+ minutes saved per case. The platform
+  is HIPAA and SOC 2 Type II compliant. The company is a portfolio company of Battery
+  Ventures. It does not currently publish a public developer API, documentation portal,
+  or machine-readable API description.
 url: https://raw.githubusercontent.com/api-evangelist/assistiq-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +19,53 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.assistiq.ai/hubfs/website/brand/logos/primary-nav-logo.svg
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Computer Vision
+- Surgical Supply Chain
+- Charge Capture
+- Medical Devices
+- Health IT
 apis: []
+common:
+- type: DomainSecurity
+  url: security/assistiq-technologies-domain-security.yml
+- type: Website
+  url: https://www.assistiq.ai
+- type: Blog
+  url: https://www.assistiq.ai/blog
+- type: PrivacyPolicy
+  url: https://www.assistiq.ai/privacy
+- type: Careers
+  url: https://www.assistiq.ai/careers
+- type: Contact
+  url: https://www.assistiq.ai/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/assistiq
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
