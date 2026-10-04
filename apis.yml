@@ -49,7 +49,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Surgical Supply Chain
 - Charge Capture
 - Medical Devices
@@ -63,6 +63,7 @@ tags_raw:
 - Charge Capture
 - Medical Devices
 - Health IT
+- Computer-Vision
 apis: []
 common:
 - type: DomainSecurity
