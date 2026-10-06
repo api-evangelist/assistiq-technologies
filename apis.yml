@@ -43,7 +43,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 image: https://www.assistiq.ai/hubfs/website/brand/logos/primary-nav-logo.svg
 tags:
 - Company
@@ -66,6 +66,10 @@ tags_raw:
 - Computer-Vision
 apis: []
 common:
+- url: https://www.assistiq.ai/newsroom
+  type: Blog
+- url: https://www.assistiq.ai/newsroom/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/assistiq-technologies-domain-security.yml
 - type: Website
